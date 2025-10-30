@@ -8,6 +8,8 @@ public class IndexController {
 
     @RequestMapping("/")
     String index(){
+        // Make some changes for customer 1
+        // ...
         return "index";
     }
 }
