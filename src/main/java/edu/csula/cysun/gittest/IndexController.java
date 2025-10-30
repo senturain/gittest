@@ -10,8 +10,6 @@ public class IndexController {
     @RequestMapping("/")
     String index(Model model){
         model.addAttribute("title", "Gittest");
-        // This is the changes in main branch
-        // ...
         return "index";
     }
 }
